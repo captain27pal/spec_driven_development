@@ -1,6 +1,6 @@
 boto3==1.43.85
-pandas==3.0.5
-numpy==2.5.2
+pandas
+numpy
 ipykernel==6.30.1
 jupyter_core==5.9.1
 pyzmq==27.2.0

@@ -1,0 +1,17 @@
+[
+    {
+        "task": "Parse an AWS CloudFormation template and extract all resource logical IDs",
+        "format": "python",
+        "solution_criteria": "Function should accept a CloudFormation template (dict or JSON string) and return a list of all resource logical IDs from the Resources section"
+    },
+    {
+        "task": "Create a JSON policy document that allows an IAM user to read and list objects from a specific S3 bucket",
+        "format": "json",
+        "solution_criteria": "Valid IAM policy JSON with appropriate S3 actions (s3:GetObject, s3:ListBucket), resources specified for a bucket named 'my-bucket', and correct effect set to Allow"
+    },
+    {
+        "task": "Validate AWS IAM usernames using a regular expression pattern",
+        "format": "regex",
+        "solution_criteria": "Regex pattern that matches valid IAM usernames (1-64 characters, alphanumeric plus +=,.@-) and rejects invalid ones like empty strings or names with spaces"
+    }
+]
